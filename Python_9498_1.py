@@ -4,11 +4,11 @@ score=int(input()) # 사용자로부터 score 입력받기
 
 if(score>=90): # 만약, score가 90 이상이라면
     print('A')
-elif(score>=80): # 
+elif(score>=80): # 만약, score가 90 미만이고 80 이상이라면
     print('B')
-elif(score>=70):
+elif(score>=70): # 만약, score가 80 미만이고 70 이상이라면
     print("C")
-elif(score>=60):
+elif(score>=60): # 만약, score가 70 미만이고 60 이상이라면
     print('D')
-else:
+else: # 만약, score가 60 미만이라면
     print('F')
